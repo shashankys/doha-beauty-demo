@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Doha Beauty Center | Beauty Salon in Doha, Qatar</title>
+  <meta name="description" content="Doha Beauty Center in Doha, Qatar. Bridal makeup, facials, hair spa, manicure & pedicure. Book an appointment online." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+      <div class="topbar-right">
+        <span>📞 +974 55806400</span>
+        <span>✉️ dohabbeauty06@gmail.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="home">
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="logo-title">DOHA BEAUTY CENTER</div>
+        <div class="logo-sub">Beauty Salon • Doha, Qatar</div>
+      </div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Slider -->
+  <section class="hero" aria-label="Hero slider">
+    <div class="hero-slide active" data-slide="1">
+      <div class="container hero-content">
+        <div class="hero-badge">Bridal Makeup</div>
+        <h1>Defining Beauty<br/>With Style</h1>
+        <p>Premium beauty & spa services in Doha, Qatar — bridal makeup, facials, hair spa, waxing & more.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#appointment">View Details</a>
+          <a class="btn ghost" href="#services">Explore Services</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide" data-slide="2">
+      <div class="container hero-content">
+        <div class="hero-badge">Facials</div>
+        <h1>Glow Starts Here</h1>
+        <p>Skin care therapies & professional facials designed for visible results.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#appointment">Book Appointment</a>
+          <a class="btn ghost" href="#testimonials">See Reviews</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide" data-slide="3">
+      <div class="container hero-content">
+        <div class="hero-badge">Hair Spa</div>
+        <h1>Relax. Refresh. Renew.</h1>
+        <p>Hair spa + grooming experience with premium products and expert care.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#appointment">Book Now</a>
+          <a class="btn ghost" href="#branches">Our Branches</a>
+        </div>
+      </div>
+    </div>
+
+    <button class="hero-nav left" id="prevSlide" aria-label="Previous slide">‹</button>
+    <button class="hero-nav right" id="nextSlide" aria-label="Next slide">›</button>
+    <div class="hero-dots" id="heroDots" aria-label="Slide indicators"></div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container split">
+      <div class="card soft">
+        <h2>Top Beauty Salon in Doha, Qatar</h2>
+        <p>
+          Doha Beauty Center offers premium beauty services including bridal makeup, facials, manicure & pedicure,
+          waxing & bleaching, and hair spa. Our experienced team focuses on hygiene, comfort, and long-lasting results.
+        </p>
+        <ul class="ticks">
+          <li>Experienced beauticians & premium products</li>
+          <li>Women-focused salon experience</li>
+          <li>Quick booking + WhatsApp support</li>
+        </ul>
+        <a class="btn primary" href="#contact">Read More</a>
+      </div>
+      <div class="media-box">
+        <div class="before-after">
+          <div class="before">Before</div>
+          <div class="after">After</div>
+        </div>
+        <div class="media-hint">Add your “before/after” image later (client photos)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section alt" id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2>Our Services</h2>
+        <p>High-demand salon services crafted for Doha customers.</p>
+      </div>
+
+      <div class="grid services">
+        <article class="service-card">
+          <div class="service-img placeholder">🖐️</div>
+          <h3>Manicure & Pedicure</h3>
+          <p>Clean, polish & care for hands and feet.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img placeholder">👰</div>
+          <h3>Bridal Makeup</h3>
+          <p>Wedding-ready looks with premium products.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img placeholder">✨</div>
+          <h3>Waxing & Bleaching</h3>
+          <p>Smooth skin with safe professional methods.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img placeholder">🧖‍♀️</div>
+          <h3>Facials</h3>
+          <p>Glow therapies for hydration & clarity.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img placeholder">💇‍♀️</div>
+          <h3>Hair Spa</h3>
+          <p>Nourish, repair & relax with hair spa routines.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img placeholder">🎀</div>
+          <h3>Other Services</h3>
+          <p>Threading, grooming, packages and more.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Appointment -->
+  <section class="section" id="appointment">
+    <div class="container">
+      <div class="section-head">
+        <h2>Book Appointment</h2>
+        <p>Quick booking form for leads (great for client demo).</p>
+      </div>
+
+      <div class="appointment">
+        <div class="hours card">
+          <h3>Working Hours</h3>
+          <p class="muted">Open all days</p>
+          <p><strong>Friday Prayer Break:</strong><br/>10:30 AM to 12:30 PM</p>
+          <div class="note">
+            Tip: Connect this form to WhatsApp / Email when going live.
+          </div>
+        </div>
+
+        <form class="form card" id="bookingForm">
+          <div class="form-row">
+            <label>Service</label>
+            <select name="service" required>
+              <option value="">Select your service</option>
+              <option>Manicure & Pedicure</option>
+              <option>Bridal Makeup</option>
+              <option>Waxing & Bleaching</option>
+              <option>Facials</option>
+              <option>Hair Spa</option>
+              <option>Other Services</option>
+            </select>
+          </div>
+
+          <div class="form-2col">
+            <div class="form-row">
+              <label>Date</label>
+              <input type="date" name="date" required />
+            </div>
+            <div class="form-row">
+              <label>Time</label>
+              <input type="time" name="time" required />
+            </div>
+          </div>
+
+          <div class="form-2col">
+            <div class="form-row">
+              <label>First Name</label>
+              <input type="text" name="name" placeholder="First name..." required />
+            </div>
+            <div class="form-row">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email address..." required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label>Phone Number</label>
+            <input type="tel" name="phone" placeholder="+974 ..." required />
+          </div>
+
+          <div class="form-row">
+            <label>Message</label>
+            <textarea name="message" placeholder="Enter message..." rows="4"></textarea>
+          </div>
+
+          <button class="btn primary full" type="submit">Submit</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section alt" id="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <h2>Client Testimonials</h2>
+        <p>Social proof = higher conversion for salon bookings.</p>
+      </div>
+
+      <div class="testimonial card" id="testimonialBox">
+        <div class="testimonial-name" id="tName">Isabela</div>
+        <p class="testimonial-text" id="tText">
+          One of the best salons in Doha. Friendly staff, great hygiene, and amazing service quality.
+        </p>
+        <div class="stars" id="tStars">★★★★★</div>
+        <div class="testimonial-nav">
+          <button class="btn ghost" id="tPrev">Prev</button>
+          <button class="btn ghost" id="tNext">Next</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <h2>Photo Gallery</h2>
+        <p>Add real photos later (salon interior, bridal looks, staff).</p>
+      </div>
+
+      <div class="grid gallery">
+        <div class="g-item">Event 1</div>
+        <div class="g-item">Event 2</div>
+        <div class="g-item">Event 3</div>
+        <div class="g-item">Salon 1</div>
+        <div class="g-item">Salon 2</div>
+        <div class="g-item">Salon 3</div>
+      </div>
+
+      <div class="center">
+        <a class="btn primary" href="#">View More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Branches -->
+  <section class="section alt" id="branches">
+    <div class="container">
+      <div class="section-head">
+        <h2>Branches</h2>
+        <p>Local intent + multiple branches = strong Qatar SEO structure.</p>
+      </div>
+
+      <div class="grid branches">
+        <div class="branch card purple">
+          <h3>Doha Beauty Centre</h3>
+          <p>📍 Bin Mahmoud, Doha, Qatar</p>
+          <p>✉️ dohabbeauty06@gmail.com</p>
+          <p>📞 +974 55806400</p>
+          <p>🕘 8:30 AM to 8:30 PM</p>
+        </div>
+
+        <div class="branch card purple">
+          <h3>Doha Beauty Centre</h3>
+          <p>📍 Lulu Hypermarket, D Ring Road</p>
+          <p>✉️ dohabbeauty06@gmail.com</p>
+          <p>📞 +974 55806400</p>
+          <p>🕘 9:00 AM to 11:00 PM</p>
+        </div>
+
+        <div class="branch card purple">
+          <h3>Doha Beauty Centre</h3>
+          <p>📍 Al Khor Mall, Al Khor</p>
+          <p>✉️ dohabbeauty06@gmail.com</p>
+          <p>📞 +974 55806400</p>
+          <p>🕘 10:00 AM to 10:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media / Awards -->
+  <section class="section" id="media">
+    <div class="container">
+      <div class="section-head">
+        <h2>Media</h2>
+        <p>Authority signals (awards, press, recognition).</p>
+      </div>
+
+      <div class="grid media">
+        <div class="media-card card">
+          <div class="media-thumb">News Feature</div>
+          <p class="muted">Add screenshot of press coverage / article card.</p>
+        </div>
+        <div class="media-card card">
+          <div class="media-thumb">Award</div>
+          <p class="muted">Add award image / certificate banner.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section newsletter" id="subscribe">
+    <div class="container">
+      <h2>Subscribe For More Updates</h2>
+      <form class="subscribe" id="subscribeForm">
+        <input type="email" placeholder="Enter your email address..." required />
+        <button class="btn primary" type="submit">Subscribe</button>
+      </form>
+      <p class="muted small" id="subscribeStatus" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section alt" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2>Contact Us</h2>
+        <p>For demo: show WhatsApp-first contact (GCC best practice).</p>
+      </div>
+
+      <div class="contact card">
+        <p><strong>Doha Beauty Center</strong></p>
+        <p>📍 Bin Mahmoud, Doha, Qatar</p>
+        <p>✉️ dohabbeauty06@gmail.com</p>
+        <p>📞 +974 55806400</p>
+        <p class="muted small">Note: Replace with real address and map embed when going live.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Doha Beauty Center</strong><br/>
+        Bin Mahmoud, Doha, Qatar
+      </div>
+      <div>
+        Open all days<br/>
+        Friday Prayer Break: 10:30 AM – 12:30 PM
+      </div>
+      <div>
+        dohabbeauty06@gmail.com<br/>
+        +974 55806400
+      </div>
+    </div>
+    <div class="copyright">
+      Doha Beauty Center © <span id="year"></span> All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a class="whatsapp" href="https://wa.me/97455806400" target="_blank" rel="noopener" aria-label="WhatsApp Chat">
+    WhatsApp
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
