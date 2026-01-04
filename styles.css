@@ -91,7 +91,7 @@ body{
     linear-gradient(120deg, rgba(0,0,0,.72), rgba(0,0,0,.25)),
     radial-gradient(circle at 10% 10%, rgba(90,42,110,.55), transparent 50%),
     radial-gradient(circle at 90% 10%, rgba(0,168,132,.25), transparent 55%),
-    url(""C:\Users\ysrao\Downloads\Doha Beauty Center _ Top beauty salon in Doha, Qatar\imgi_26_slider-3_img_3.jpg"");
+    url("C:\Users\ysrao\Downloads\Doha Beauty Center _ Top beauty salon in Doha, Qatar\imgi_26_slider-3_img_3.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -426,6 +426,7 @@ input:focus, select:focus, textarea:focus{border-color:rgba(90,42,110,.55)}
   .footer-inner{grid-template-columns:1fr}
   .form-2col{grid-template-columns:1fr}
 }
+
 
 
 
