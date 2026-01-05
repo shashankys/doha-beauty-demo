@@ -104,3 +104,4 @@ subscribeForm?.addEventListener("submit", (e) => {
   subscribeStatus.textContent = "✅ Subscribed! You’ll receive updates & offers.";
   subscribeForm.reset();
 });
+
